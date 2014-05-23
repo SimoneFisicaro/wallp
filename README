@@ -1,0 +1,16 @@
+Usage: python wall.py [OPTIONS] TAGS
+
+OPTIONS:
+  -q query or --query query
+
+TAGS is a space delimited list of tags
+
+Wallpaper changer for Ubuntu that downloads wallpapers from wallgig through a Mashape api.
+You can chouse a set of wallpapers 
+A Mashape authorization key is required.
+
+Tested for Ubuntu 14.04 - Gnome 3
+
+Requires:
+ - unirest, install from pip
+ - appindicator, install from pip
